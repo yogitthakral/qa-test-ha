@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests">
+
+	<listeners>
+		<listener
+			class-name="com.ha.CustomReporter.CustomListener" />
+	</listeners>
+
+
+	<test name="TC_001_signUpTest" preserve-order="true">
+		<classes>
+			<class name="com.ha.testcases.WebTest" >
+			<methods>
+				<include name="TC_001_signUpTest" />
+			</methods>
+		</class>
+		</classes>
+	</test>
+
+	<test name="TC_002_logInTest" preserve-order="true">
+		<classes>
+			<class name="com.ha.testcases.WebTest" >
+			<methods>
+				<include name="TC_002_logInTest" />
+			</methods>
+		</class>
+		</classes>
+	</test>
+
+	<test name="TC_003_checkoutTest" preserve-order="true">
+		<classes>
+			<class name="com.ha.testcases.WebTest" >
+			<methods>
+				<include name="TC_003_checkoutTest" />
+			</methods>
+		</class>
+		</classes>
+	</test>
+	
+		<test name="TC_004_checkoutThenloginTest" preserve-order="true">
+		<classes>
+			<class name="com.ha.testcases.WebTest" >
+			<methods>
+				<include name="TC_004_checkoutThenloginTest" />
+			</methods>
+		</class>
+		</classes>
+	</test>
+	
+			<test name="TC_005_checkoutThenRegisterTest" preserve-order="true">
+		<classes>
+			<class name="com.ha.testcases.WebTest" >
+			<methods>
+				<include name="TC_005_checkoutThenRegisterTest" />
+			</methods>
+		</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

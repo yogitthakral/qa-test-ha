@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42959" started-at="2019-03-05T16:26:03Z" finished-at="2019-03-05T16:26:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42959" started-at="2019-03-05T16:26:03Z" finished-at="2019-03-05T16:26:46Z">
+      <class name="com.ha.testcases.WebTest">
+        <test-method status="PASS" signature="initialize_ConfigVariables()[pri:0, instance:com.ha.testcases.WebTest@491cc5c9]" name="initialize_ConfigVariables" is-config="true" duration-ms="77" started-at="2019-03-05T16:26:03Z" finished-at="2019-03-05T16:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize_ConfigVariables -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ha.testcases.WebTest@491cc5c9]" name="setUp" is-config="true" duration-ms="13522" started-at="2019-03-05T16:26:03Z" finished-at="2019-03-05T16:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_003_checkoutTest()[pri:0, instance:com.ha.testcases.WebTest@491cc5c9]" name="TC_003_checkoutTest" duration-ms="28810" started-at="2019-03-05T16:26:17Z" finished-at="2019-03-05T16:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_checkoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ha.testcases.WebTest@491cc5c9]" name="tearDown" is-config="true" duration-ms="608" started-at="2019-03-05T16:26:46Z" finished-at="2019-03-05T16:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ha.testcases.WebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
